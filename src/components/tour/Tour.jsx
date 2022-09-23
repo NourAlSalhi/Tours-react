@@ -1,7 +1,10 @@
 import React from 'react'
 import { useState } from 'react'
+//style
+import "./Tour.css"
 
 function Tour(props) {
+    //state
     const [readMore, setReadMore] = useState(false);
 
     return (

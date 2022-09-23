@@ -1,0 +1,15 @@
+h2 {
+    color: #102a42;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-left: 550px;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+hr {
+    width: 90px;
+    height: 3px;
+    background-color: blue;
+}

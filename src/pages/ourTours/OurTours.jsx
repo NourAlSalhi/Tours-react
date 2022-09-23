@@ -6,10 +6,10 @@ import Tours from '../../components/tours/Tours'
 import "./OurTours.css"
 
 function OurTours() {
-
+    //state
     const { items } = Data;
     const [tours, setTours] = useState(items)
-
+    //functions
     const removeTour = (id) => {
         const newTours = tours.filter((tour) => tour.id !== id)
         setTours(newTours)
@@ -17,7 +17,7 @@ function OurTours() {
 
     return (
         <div>
-            <Tours tours={tours}  removeTour={removeTour} />
+            <Tours tours={tours} removeTour={removeTour} />
         </div>
     )
 }
