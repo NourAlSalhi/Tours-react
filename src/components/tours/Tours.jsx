@@ -12,7 +12,7 @@ const Tours = (props) => {
             {
                 props.tours.map((item) => (
                     <div>
-                        <Tour key={item.id} id={item.id} removeTour={props.removeTour} name={item.name} price={item.price} img={item.img} days={item.days} text={item.text} />
+                        <Tour key={item.id} {...item} removeTour={props.removeTour} />
                     </div>
                 ))
             }
